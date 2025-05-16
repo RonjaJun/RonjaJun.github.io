@@ -5,87 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kissametsän Spa</title>
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Lato', sans-serif;
-      background-color: #FBF0E0;
-      color: #494949;
-      font-size: 18px;
-    }
-    header {
-      background-color: #D4BBDD;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 76px;
-      margin: 0;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      background-color: #FDD1D2;
-      padding: 1rem;
-      gap: 2rem;
-    }
-    nav a {
-      text-decoration: none;
-      color: #494949;
-      font-weight: bold;
-    }
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-      padding: 2rem;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-    .text-content {
-      flex: 1;
-      min-width: 300px;
-    }
-    .text-content h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 47px;
-      background-color: #FDD1D2;
-      display: inline-block;
-      padding: 0.5rem 1rem;
-      border-radius: 10px;
-    }
-    .image-section {
-      flex: 1;
-      min-width: 300px;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-    .image-section img {
-      width: 50%;
-      border-radius: 12px;
-      object-fit: cover;
-    }
-    .testimonial {
-      margin-top: 2rem;
-      background-color: #D4BBDD;
-      padding: 1rem;
-      border-radius: 10px;
-      font-style: italic;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
     <h1>Kissametsän Spa</h1>
   </header>
+
   <nav>
-    <a href="#etusivu">Etusivu</a>
-    <a href="#palvelut">Palvelut</a>
-    <a href="#yhteystiedot">Yhteystiedot</a>
+    <a href="index.html">Etusivu</a>
+    <a href="palvelut.html">Palvelut</a>
+    <a href="yhteystiedot.html">Yhteystiedot</a>
   </nav>
-  <section class="container" id="etusivu">
+
+  <section class="container">
     <div class="text-content">
       <h2>Tervetuloa Kissametsän Spa'han</h2>
       <p>Kissametsän Spa on rauhan tyyssija kissoille &ndash; paikka, jossa hurina saa soida ja tassut laskeutuvat pehmeästi. Me tarjoamme lempeää hierontaa ja hoitoja, jotka tukevat kissasi kehon ja mielen hyvinvointia. Palvelumme syntyvät rakkaudesta kissoihin ja ymmärryksestä niiden herkää luontoa kohtaan. Meillä jokainen asiakas otetaan vastaan kissojen ehdoilla &ndash; lämpimässä, turvallisessa ympäristössä, ilman kiirettä tai stressiä.</p>
@@ -94,6 +27,7 @@
         "En olisi uskonut, että kissani voi rentoutua näin täysin vieraassa paikassa &ndash; mutta se kehräsi koko ajan!"<br> &mdash; Heli & Osku
       </div>
     </div>
+
     <div class="image-section">
       <img src="kuva1.jpg" height="250" alt="Kissa peiton alla">
       <img src="kuva2.jpg" height="250" alt="Kukka-spa-allas">
